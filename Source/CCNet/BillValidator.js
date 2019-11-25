@@ -212,6 +212,7 @@ class BillValidator extends EventEmitter {
       await this.execute(this.commands.EnableBillTypes, [0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF]);
     } catch (error) {
       console.log(error);
+      throw error
     }
   }
 
