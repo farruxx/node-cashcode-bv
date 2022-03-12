@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/Desionlab/node-cashcode-bv#readme",
   "dependencies": {
-    "serialport": "latest"
+    "serialport": "9.0.2"
   },
   "devDependencies": {
     "mocha": "latest"
